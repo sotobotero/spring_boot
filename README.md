@@ -39,10 +39,9 @@ mvn spring-boot:run
 Una vez que la aplicación está en ejecución, puedes probar la API usando herramientas como Postman o curl.
 
 ### Endpoints
-- **GET** `/api/personas` - Obtener la lista de personas.
-- **POST** `/api/personas` - Crear una nueva persona.
-- **PUT** `/api/personas/{id}` - Actualizar los datos de una persona.
-- **DELETE** `/api/personas/{id}` - Eliminar una persona.
+- **GET** `/person` - Obtener la lista de personas.
+- **POST** `/person` - Crear una nueva persona.
+-
 
 ### Ejemplo de solicitud para crear una persona:
 ```json
