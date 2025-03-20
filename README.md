@@ -1,4 +1,5 @@
 # Spring Boot Person CRUD API with Dozer Mapper
+[![Powered by @sotobotero](https://img.shields.io/badge/Powered%20by-%40sotobotero-blue?style=flat-square&logo=twitter)](https://twitter.com/sotobotero)
 
 🌟 **Contribuye y Mejora este Proyecto**
 ¡Este proyecto está en constante evolución y cualquier mejora es bienvenida! 🎉 Si encuentras algo que se pueda optimizar, tienes una idea o quieres corregir errores, no dudes en participar.
@@ -86,28 +87,28 @@ This project is a REST API example built with Spring Boot that demonstrates CRUD
   ```bash
   git clone https://github.com/your-username/repository-name.git
   ```
-  Then navigate to the cloned repository directory:
+3. Then navigate to the cloned repository directory:
   ```bash
   cd repository-name
   ```
 
-3. **Create a New Branch**
+4. **Create a New Branch**
   ```bash
   git checkout -b my-new-branch
   ```
 
-4. **Make Your Changes**
+5. **Make Your Changes**
   - Edit the necessary files.
   - Follow the project's conventions.
 
-5. **Save Your Changes**
+6. **Save Your Changes**
   Add the modified files and commit:
   ```bash
   git add .
   git commit -m "Brief description of your change"
   ```
 
-6. **Keep Your Branch Updated**
+7. **Keep Your Branch Updated**
   Ensure you have the latest version of the original repository:
   ```bash
   git remote add upstream https://github.com/original-user/repository-name.git
@@ -115,12 +116,12 @@ This project is a REST API example built with Spring Boot that demonstrates CRUD
   git rebase upstream/main
   ```
 
-7. **Push Your Changes to GitHub**
+8. **Push Your Changes to GitHub**
   ```bash
   git push origin my-new-branch
   ```
 
-8. **Create a Pull Request (PR)**
+9. **Create a Pull Request (PR)**
   - Go to your repository on GitHub.
   - Click "Compare & pull request".
   - In the branch section, select your branch as the source.
@@ -128,7 +129,7 @@ This project is a REST API example built with Spring Boot that demonstrates CRUD
   - Write a clear title and description.
   - Click "Create pull request".
 
-9. **Wait for Review**
+10. **Wait for Review**
   The maintainers will review your PR and may request changes. Respond to their comments and adjust your code if necessary.
 
 🎉 **Congratulations!**
@@ -148,42 +149,42 @@ This project is open source under the [Licencia MIT](LICENSE).
   ```bash
   git clone https://github.com/tu-usuario/nombre-del-repositorio.git
   ```
-  Luego navega al directorio del repositorio clonado:
+3. Luego navega al directorio del repositorio clonado:
   ```bash
   cd nombre-del-repositorio
   ```
-3. **Crea una Nueva Rama**
+4. **Crea una Nueva Rama**
   ```bash
   git checkout -b mi-nueva-rama
   ```
-4. **Realiza tus Cambios**
+5. **Realiza tus Cambios**
   - Edita los archivos necesarios.
   - Sigue las convenciones del proyecto.
-5. **Guarda tus Cambios**
+6. **Guarda tus Cambios**
   Añade los archivos modificados y realiza un commit:
   ```bash
   git add .
   git commit -m "Descripción breve de tu cambio"
   ```
-6. **Mantén tu Rama Actualizada**
+7. **Mantén tu Rama Actualizada**
   Asegura que tienes la última versión del repositorio original:
   ```bash
   git remote add upstream https://github.com/usuario-original/nombre-del-repositorio.git
   git fetch upstream
   git rebase upstream/main
   ```
-7. **Sube tus Cambios a GitHub**
+8. **Sube tus Cambios a GitHub**
   ```bash
   git push origin mi-nueva-rama
   ```
-8. **Crea un Pull Request (PR)**
+9. **Crea un Pull Request (PR)**
   - Ve a tu repositorio en GitHub.
   - Haz clic en "Compare & pull request".
   - En la sección de ramas, selecciona tu rama como origen.
     Asegúrate de que la rama de destino sea la rama principal (main o master) del repositorio original.
   - Escribe un título y una descripción clara.
   - Haz clic en "Create pull request".
-9. **Espera la Revisión**
+10. **Espera la Revisión**
   Los mantenedores revisarán tu PR y pueden solicitar cambios. Responde a sus comentarios y ajusta tu código si es necesario.
 🎉 **¡Felicitaciones!**
 Si tu PR es aprobado, se fusionará al repositorio original. ¡Has contribuido a un proyecto de código abierto! 🚀
