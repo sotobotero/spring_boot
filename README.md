@@ -1,63 +1,189 @@
-# Proyecto CRUD de Personas con Spring Boot y Dozer Mapper
+# Spring Boot Person CRUD API with Dozer Mapper
 
-Este repositorio es un proyecto de ejemplo creado en **Spring Boot** para gestionar un CRUD (Crear, Leer, Actualizar y Eliminar) de datos sobre personas a través de una API REST. La aplicación utiliza **Dozer Mapper** para el mapeo de objetos de dominio a DTOs, facilitando la conversión de datos y manteniendo una arquitectura limpia y organizada. Este proyecto está diseñado para ser una guía práctica para estudiantes y desarrolladores interesados en aprender sobre el desarrollo de APIs con Spring Boot.
+🌟 **Contribuye y Mejora este Proyecto**
+¡Este proyecto está en constante evolución y cualquier mejora es bienvenida! 🎉 Si encuentras algo que se pueda optimizar, tienes una idea o quieres corregir errores, no dudes en participar.
+📌 Consulta el apartado [Cómo Contribuir](#-cómo-contribuir) para español or [How to Contribute](#-how-to-contribute) for English.
 
-## Características
 
-- **CRUD completo** sobre los datos de personas.
-- **API REST** diseñada con buenas prácticas de desarrollo.
-- **Mapeo de objetos con Dozer Mapper**, separando las capas de dominio y transporte.
-- **Arquitectura limpia y escalable**, ideal para nuevos desarrolladores en Spring Boot.
+## Descripción
+This project is a REST API example built with Spring Boot that demonstrates CRUD operations for managing person data. The application uses Dozer Mapper to efficiently map between domain objects and DTOs, maintaining a clean architecture.
 
-## Requisitos previos
+## Features
+- Complete CRUD operations for person data
+- REST API with best practices implementation
+- Object mapping with Dozer Mapper
+- Clean, scalable architecture for Spring Boot learners
 
-- **Java 8** o superior
-- **Maven** para la gestión de dependencias
+## Requirements
+- Java 8+
+- Maven
 
-## Instalación
-
-1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/usuario/repo-ejemplo.git
-```md
-## Navega al directorio del proyecto:
-```bash
-cd repo-ejemplo
-```
-
-## Compila el proyecto y descarga las dependencias:
-```bash
-mvn clean install
-```
-
-## Inicia la aplicación:
-```bash
-mvn spring-boot:run
-```
-
-## Uso de la API
-Una vez que la aplicación está en ejecución, puedes probar la API usando herramientas como Postman o curl.
-
+## Setup
+1. Clone the repository:
+  ```bash
+  git clone https://github.com/sotobotero/spring_boot.git
+  ```
+2. Navigate to the project directory:
+  ```bash
+  cd spring_boot
+  ```
+3. Build and run the application:
+  ```bash
+  mvn clean install
+  mvn spring-boot:run
+  ```
+## API Usage
 ### Endpoints
-- **GET** `/person` - Obtener la lista de personas.
-- **POST** `/person` - Crear una nueva persona.
--
+- `GET /person` - Retrieve all persons
+  ```bash
+  curl -X GET http://localhost:8080/person
+  ```
+- `GET /person/{id}` - Retrieve a specific person
+  ```bash
+  curl -X GET http://localhost:8080/person/{id}
+  ```
 
-### Ejemplo de solicitud para crear una persona:
+- `POST /person` - Create a new person
+  ```bash
+  curl -X POST http://localhost:8080/person -H "Content-Type: application/json" -d '{
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "john.doe@example.com"
+  }'
+  ```
+
+- `PUT /person/{id}` - Update an existing person
+  ```bash
+  curl -X PUT http://localhost:8080/person/{id} -H "Content-Type: application/json" -d '{
+    "firstName": "John",
+    "lastName": "Doe",
+    "email": "john.doe@example.com"
+  }'
+  ```
+
+- `DELETE /person/{id}` - Delete a person
+  ```bash
+  curl -X DELETE http://localhost:8080/person/{id}
+  ```
+
+### Request Example
+
+#### POST /person
 ```json
-POST /api/personas
 {
-  "nombre": "Juan",
-  "apellido": "Pérez",
-  "email": "juan.perez@example.com"
+  "firstName": "John",
+  "lastName": "Doe",
+  "email": "john.doe@example.com"
 }
 ```
+## 🚀 How to Contribute
 
-## Contribuir
-Las contribuciones son bienvenidas. Puedes contribuir de las siguientes maneras:
-1. Forkea el repositorio.
-2. Crea una rama para tu contribución.
-3. Realiza un pull request y explícanos tu mejora.
+1. **Fork the Repository**
+  Click the "Fork" button in the upper right corner of the repository on GitHub.
 
-## Licencia
-Este proyecto está disponible como código abierto bajo la [Licencia MIT](LICENSE).
+2. **Clone Your Fork to Your Computer**
+  Open a terminal and run:
+  ```bash
+  git clone https://github.com/your-username/repository-name.git
+  ```
+  Then navigate to the cloned repository directory:
+  ```bash
+  cd repository-name
+  ```
+
+3. **Create a New Branch**
+  ```bash
+  git checkout -b my-new-branch
+  ```
+
+4. **Make Your Changes**
+  - Edit the necessary files.
+  - Follow the project's conventions.
+
+5. **Save Your Changes**
+  Add the modified files and commit:
+  ```bash
+  git add .
+  git commit -m "Brief description of your change"
+  ```
+
+6. **Keep Your Branch Updated**
+  Ensure you have the latest version of the original repository:
+  ```bash
+  git remote add upstream https://github.com/original-user/repository-name.git
+  git fetch upstream
+  git rebase upstream/main
+  ```
+
+7. **Push Your Changes to GitHub**
+  ```bash
+  git push origin my-new-branch
+  ```
+
+8. **Create a Pull Request (PR)**
+  - Go to your repository on GitHub.
+  - Click "Compare & pull request".
+  - In the branch section, select your branch as the source.
+    Ensure the target branch is the main (or master) branch of the original repository.
+  - Write a clear title and description.
+  - Click "Create pull request".
+
+9. **Wait for Review**
+  The maintainers will review your PR and may request changes. Respond to their comments and adjust your code if necessary.
+
+🎉 **Congratulations!**
+If your PR is approved, it will be merged into the original repository. You have contributed to an open-source project! 🚀
+
+## License
+
+This project is open source under the [Licencia MIT](LICENSE).
+
+# Version en Español
+## 🚀 Cómo Contribuir
+1. **Haz un Fork del Repositorio**
+  Haz clic en el botón "Fork" en la esquina superior derecha del repositorio en GitHub.
+
+2. **Clona tu Fork en tu Computadora**
+  Abre una terminal y ejecuta:
+  ```bash
+  git clone https://github.com/tu-usuario/nombre-del-repositorio.git
+  ```
+  Luego navega al directorio del repositorio clonado:
+  ```bash
+  cd nombre-del-repositorio
+  ```
+3. **Crea una Nueva Rama**
+  ```bash
+  git checkout -b mi-nueva-rama
+  ```
+4. **Realiza tus Cambios**
+  - Edita los archivos necesarios.
+  - Sigue las convenciones del proyecto.
+5. **Guarda tus Cambios**
+  Añade los archivos modificados y realiza un commit:
+  ```bash
+  git add .
+  git commit -m "Descripción breve de tu cambio"
+  ```
+6. **Mantén tu Rama Actualizada**
+  Asegura que tienes la última versión del repositorio original:
+  ```bash
+  git remote add upstream https://github.com/usuario-original/nombre-del-repositorio.git
+  git fetch upstream
+  git rebase upstream/main
+  ```
+7. **Sube tus Cambios a GitHub**
+  ```bash
+  git push origin mi-nueva-rama
+  ```
+8. **Crea un Pull Request (PR)**
+  - Ve a tu repositorio en GitHub.
+  - Haz clic en "Compare & pull request".
+  - En la sección de ramas, selecciona tu rama como origen.
+    Asegúrate de que la rama de destino sea la rama principal (main o master) del repositorio original.
+  - Escribe un título y una descripción clara.
+  - Haz clic en "Create pull request".
+9. **Espera la Revisión**
+  Los mantenedores revisarán tu PR y pueden solicitar cambios. Responde a sus comentarios y ajusta tu código si es necesario.
+🎉 **¡Felicitaciones!**
+Si tu PR es aprobado, se fusionará al repositorio original. ¡Has contribuido a un proyecto de código abierto! 🚀
