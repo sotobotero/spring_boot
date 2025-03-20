@@ -4,7 +4,7 @@
 
 🌟 **Contribuye y Mejora este Proyecto**
 ¡Este proyecto está en constante evolución y cualquier mejora es bienvenida! 🎉 Si encuentras algo que se pueda optimizar, tienes una idea o quieres corregir errores, no dudes en participar.
-📌 Consulta el apartado [Cómo Contribuir](#-cómo-contribuir) para español or [How to Contribute](#-how-to-contribute) for English.
+📌 Consulta el apartado [Cómo Contribuir](https://github.com/sotobotero/CodeHub/blob/develop/README.md#-cómo-contribuir) para español or [How to Contribute](https://github.com/sotobotero/CodeHub/blob/develop/README.md#-how-to-contribute) for English.
 
 
 ## Descripción
