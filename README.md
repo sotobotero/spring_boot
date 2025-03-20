@@ -6,6 +6,8 @@
 ¡Este proyecto está en constante evolución y cualquier mejora es bienvenida! 🎉 Si encuentras algo que se pueda optimizar, tienes una idea o quieres corregir errores, no dudes en participar.
 ### 📌¿Quieres enviar cambios y no sabes cómo?📌
 Consulta el paso a paso [**Cómo contribuir con un proyecto en github**](https://github.com/sotobotero/CodeHub/blob/develop/README.md#-cómo-contribuir) para español or [**How to Contribute with github project**](https://github.com/sotobotero/CodeHub/blob/develop/README.md#-how-to-contribute) for English.
+## License
+This project is open source under the [Licencia MIT](https://github.com/sotobotero/CodeHub/blob/develop/LICENSE).
 
 ## Descripción
 This project is a REST API example built with Spring Boot that demonstrates CRUD operations for managing person data. The application uses Dozer Mapper to efficiently map between domain objects and DTOs, maintaining a clean architecture.
